@@ -1,4 +1,4 @@
-if defined?(Refinery::Blog)
+if defined?(Refinery::Blog::Admin::PostsController)
   Refinery::Blog::Admin::PostsController.class_eval do
 
     # work around an issue with stack level too deep, due to an issue with decorators.
