@@ -5,4 +5,4 @@ Refinery::Core.configure do |config|
   # Register extra stylesheet for backend (optional options)
   config.register_stylesheet "refinery/page-image-picker", :media => 'screen'
 end
-Rails.application.config.assets.precompile += %w( page-image-picker.css page-image-picker.js )
+Rails.application.config.assets.precompile += %w( refinery/page-image-picker.css refinery/page-image-picker.js )
