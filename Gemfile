@@ -17,7 +17,12 @@ group :development do
 end
 
 group :test do
-  gem 'poltergeist'
+  gem 'generator_spec', '~> 0.9.3'
+  gem 'launchy'
+  gem 'coveralls', require: false
+  gem 'rspec-retry'
+  gem 'puma'
+  gem 'poltergeist', '>= 1.8.1'
 end
 
 # Database Configuration
